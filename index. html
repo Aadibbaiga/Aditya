@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;disp
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"primary":"#8ed5ff","error":"#ffb4ab","error-container":"#93000a","on-error-container":"#ffdad6","primary-fixed":"#c4e7ff","surface-variant":"#313540","on-primary":"#00354a","surface-dim":"#0f131d","on-secondary":"#131e8c","surface-container-high":"#262a35","on-background":"#dfe2f1","on-tertiary-fixed":"#002113","surface-container":"#1c1f2a","inverse-on-surface":"#2c303b","on-surface-variant":"#bdc8d1","on-error":"#690005","surface-tint":"#7bd0ff","surface":"#0f131d","secondary-fixed":"#e0e0ff","on-primary-container":"#004965","primary-container":"#38bdf8","secondary-container":"#2f3aa3","on-secondary-fixed-variant":"#2f3aa3","tertiary-fixed-dim":"#4edea3","secondary-fixed-dim":"#bdc2ff","on-surface":"#dfe2f1","secondary":"#bdc2ff","inverse-primary":"#00668a","tertiary-container":"#30c88f","surface-bright":"#353944","inverse-surface":"#dfe2f1","on-secondary-fixed":"#000767","outline-variant":"#3e484f","on-primary-fixed":"#001e2c","surface-container-low":"#171b26","on-tertiary-fixed-variant":"#005236","on-tertiary":"#003824","surface-container-highest":"#313540","background":"#0f131d","outline":"#87929a","primary-fixed-dim":"#7bd0ff","on-tertiary-container":"#004e34","tertiary-fixed":"#6ffbbe","on-secondary-container":"#a8afff","on-primary-fixed-variant":"#004c69","surface-container-lowest":"#0a0e18","tertiary":"#56e5a9"},"borderRadius":{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},"spacing":{"space-md":"1rem","margin":"4rem","space-xl":"2.5rem","gutter-sm":"1rem","space-xs":"0.25rem","space-lg":"1.5rem","space-sm":"0.5rem","margin-mobile":"1.25rem","gutter":"1.5rem","margin-tablet":"2rem"},"fontFamily":{"body-md":["Plus Jakarta Sans"],"code-body":["JetBrains Mono"],"headline-md":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"],"headline-xl":["Plus Jakarta Sans"],"label-sm":["JetBrains Mono"],"headline-lg-mobile":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"code-metric":["JetBrains Mono"],"headline-xl-mobile":["Plus Jakarta Sans"],"label-md":["JetBrains Mono"],"headline-sm":["Plus Jakarta Sans"]},"fontSize":{"body-md":["15px",{"lineHeight":"24px","letterSpacing":"0em","fontWeight":"400"}],"code-body":["13px",{"lineHeight":"20px","letterSpacing":"0em","fontWeight":"400"}],"headline-md":["28px",{"lineHeight":"36px","letterSpacing":"-0.015em","fontWeight":"600"}],"body-sm":["13px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"400"}],"headline-xl":["56px",{"lineHeight":"64px","letterSpacing":"-0.03em","fontWeight":"700"}],"label-sm":["10px",{"lineHeight":"14px","letterSpacing":"0.1em","fontWeight":"600"}],"headline-lg-mobile":["28px",{"lineHeight":"36px","letterSpacing":"-0.01em","fontWeight":"600"}],"headline-lg":["40px",{"lineHeight":"48px","letterSpacing":"-0.02em","fontWeight":"600"}],"body-lg":["18px",{"lineHeight":"28px","letterSpacing":"-0.005em","fontWeight":"400"}],"code-metric":["32px",{"lineHeight":"36px","letterSpacing":"-0.02em","fontWeight":"500"}],"headline-xl-mobile":["36px",{"lineHeight":"44px","letterSpacing":"-0.02em","fontWeight":"700"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.06em","fontWeight":"500"}],"headline-sm":["20px",{"lineHeight":"28px","letterSpacing":"-0.01em","fontWeight":"600"}]}}}}</script></head><body class="bg-surface font-body-md text-on-surface antialiased selection:bg-primary-container selection:text-on-primary-container"><header class="fixed top-0 inset-x-0 z-50 bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.25)]"><div class="h-20 max-w-[1280px] mx-auto px-gutter flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md shrink-0"><img alt="Aadib Baiga Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1UKW2GBlDlTg5vhZ6yyLRB7ALVzgEapM0wF3ebTpUDwM8F_vCi41JxwSi8MUeu_ktcegZgrjb4-_fcmAJnqRzW_nI2wJMZ0pRyL0rZUzswUvtG5MoiAGKbLQosaChGdBm_8D9pm2WNN5VD69dBNbxz4QxZuFLQuKmzKJcZQbQDrRBDhNaOsv3qRtoAKFPxIUYEM5tKBVnKGtqf2isEyHTvOawrzz03e884zN2usXCt8CFgd8Yc52rFYgA"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight leading-none">Aadib Baiga</span><span class="font-label-sm text-label-sm text-primary tracking-widest uppercase mt-space-xs">Lead Data Scientist</span></div><div class="hidden xl:flex items-center gap-space-xs px-space-sm py-1 rounded bg-surface-container-high border border-outline-variant/30 ml-space-xs"><span class="w-2 h-2 rounded-full bg-tertiary animate-pulse"></span><span class="font-label-sm text-label-sm text-tertiary uppercase tracking-wider">Available for ML &amp; AI consulting / roles</span></div></div><nav class="hidden lg:flex items-center gap-space-lg" data-active-classes="text-primary font-bold"><a aria-current="page" class="uppercase tracking-wider transition-colors text-primary font-bold" data-path="about" href="#about">About</a><a class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors" data-path="skills-stack" href="#skills-stack">Skills &amp; Stack</a><a class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors" data-path="projects-ml-models" href="#projects-ml-models">Projects &amp; ML Models</a><a class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors" data-path="research-case-studies" href="#research-case-studies">Research &amp; Case Studies</a><a class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors" data-path="contact" href="#contact">Contact</a></nav><div class="flex items-center gap-space-md shrink-0"><a class="inline-flex items-center px-space-md py-space-sm rounded bg-primary-container text-on-primary-container font-headline-sm text-body-sm font-semibold hover:bg-primary transition-all duration-200 shadow-[0_0_20px_rgba(56,189,248,0.25)]" href="mailto:ashishbaiga@gmail.com">Get in Touch</a><div class="relative flex items-center justify-center p-0.5 rounded-full ring-1 ring-outline-variant/50"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAgyxZhGvVH3XrZSBFB8-9h0QXXFD8BgzfBeKnL84H0yogk6ryrcJhUgOcDxew92jxJokbNrave0VEhXKbcq_tnBEkEKdPcTBzyMwKd0pBjxGFvYeWu6yRLvfsLu_TuPxi-2or9w7zjL5pa1L5wwT7AxqL4hAdsngqALY6alCkYMdLEnaF1ez9mdvhEdM6hULy-Kugrm-h8xiqbp4Z-I2V1SOKKn_JlSpC3cMmj6zwqHbV9xS4X7_s"/></div></div></div></header><main class="w-full pt-20 bg-surface min-h-screen"><div class="flex flex-col w-full">
+<!-- ==================== HERO SECTION ==================== -->
+<section class="relative w-full overflow-hidden py-space-xl lg:py-24 px-gutter flex flex-col justify-center items-center">
+<!-- Computational Ambient Aura -->
+<div class="absolute -top-32 left-1/2 -translate-x-1/2 w-[720px] h-[480px] bg-gradient-to-b from-primary-container/15 via-secondary/5 to-transparent rounded-full blur-3xl pointer-events-none -z-10"></div>
+<div class="absolute top-1/3 -right-24 w-96 h-96 bg-tertiary/10 rounded-full blur-3xl pointer-events-none -z-10"></div>
+<div class="max-w-[1280px] w-full mx-auto flex flex-col items-center text-center">
+<!-- Live Status Pill -->
+<div class="inline-flex items-center gap-space-sm px-space-md py-1.5 rounded-full bg-surface-container-high/80 backdrop-blur-md shadow-sm mb-space-lg">
+<span class="relative flex h-2 w-2">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-tertiary opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2 w-2 bg-tertiary"></span>
+</span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface">Available for New Projects &amp; Roles</span>
+</div>
+<!-- Main Headline -->
+<h1 class="font-headline-xl text-headline-xl max-w-4xl text-on-surface tracking-tight mb-space-md">
+        Transforming Complex Data into <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary via-primary-container to-secondary">Intelligent Predictive Solutions</span>
+</h1>
+<!-- Subheadline -->
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mb-space-xl">
+        Hi, I'm <span class="text-on-surface font-semibold">Aadib Baiga</span> — a Data Scientist specializing in Machine Learning, Deep Learning, Predictive Analytics, and Large-Scale Data Systems. I engineer models that bridge business logic with cutting-edge artificial intelligence.
+      </p>
+<!-- Action Buttons -->
+<div class="flex flex-wrap items-center justify-center gap-space-md mb-space-xl">
+<a class="inline-flex items-center gap-space-sm px-space-lg py-3 rounded bg-primary-container text-on-primary-container font-headline-sm text-body-sm font-semibold shadow-[0_0_24px_rgba(56,189,248,0.35)] hover:shadow-[0_0_32px_rgba(56,189,248,0.55)] hover:bg-primary transition-all duration-200" href="#projects-ml-models">
+<span>Explore ML Projects</span>
+<span class="material-symbols-outlined text-[18px]">arrow_downward</span>
+</a>
+<a class="inline-flex items-center gap-space-sm px-space-lg py-3 rounded bg-surface-container-high text-on-surface hover:text-primary font-headline-sm text-body-sm font-medium shadow-sm transition-all duration-200" href="#contact">
+<span class="material-symbols-outlined text-[18px] text-primary">calendar_today</span>
+<span>Schedule a Call</span>
+</a>
+<a class="inline-flex items-center gap-space-sm px-space-md py-3 rounded bg-surface-container text-on-surface-variant hover:text-on-surface font-code-body text-code-body hover:bg-surface-variant transition-colors" href="mailto:ashishbaiga@gmail.com?subject=Resume%20Request%20-%20Aadib%20Baiga">
+<span class="material-symbols-outlined text-[16px]">description</span>
+<span>CV.pdf</span>
+</a>
+</div>
+<!-- Stat Badges Grid -->
+<div class="w-full grid grid-cols-2 lg:grid-cols-4 gap-space-md mt-space-md">
+<!-- Stat 1 -->
+<div class="bg-surface-container-low/90 backdrop-blur-md p-space-lg rounded-xl shadow-md flex flex-col items-center justify-center text-center">
+<div class="flex items-baseline gap-1">
+<span class="font-code-metric text-code-metric text-primary">99.2%</span>
+<span class="text-tertiary font-label-sm text-label-sm">▲ MAX</span>
+</div>
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider mt-1">Accuracy Benchmark</span>
+</div>
+<!-- Stat 2 -->
+<div class="bg-surface-container-low/90 backdrop-blur-md p-space-lg rounded-xl shadow-md flex flex-col items-center justify-center text-center">
+<div class="flex items-baseline gap-1">
+<span class="font-code-metric text-code-metric text-secondary">50M+</span>
+<span class="text-primary font-label-sm text-label-sm">/ 24H</span>
+</div>
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider mt-1">Daily Streamed Inferences</span>
+</div>
+<!-- Stat 3 -->
+<div class="bg-surface-container-low/90 backdrop-blur-md p-space-lg rounded-xl shadow-md flex flex-col items-center justify-center text-center">
+<div class="flex items-baseline gap-1">
+<span class="font-code-metric text-code-metric text-tertiary">15+</span>
+<span class="text-tertiary-fixed-dim font-label-sm text-label-sm">PROD</span>
+</div>
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider mt-1">Production Architectures</span>
+</div>
+<!-- Stat 4 -->
+<div class="bg-surface-container-low/90 backdrop-blur-md p-space-lg rounded-xl shadow-md flex flex-col items-center justify-center text-center">
+<div class="flex items-baseline gap-1">
+<span class="font-code-metric text-code-metric text-on-surface">5+</span>
+<span class="text-outline font-label-sm text-label-sm">YEARS</span>
+</div>
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider mt-1">Applied Data Science &amp; AI</span>
+</div>
+</div>
+</div>
+</section>
+<!-- ==================== ABOUT & PHILOSOPHY ==================== -->
+<section class="w-full py-space-xl lg:py-24 px-gutter bg-surface-container-lowest/60" id="about">
+<div class="max-w-[1280px] mx-auto flex flex-col gap-space-xl">
+<!-- Section Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div class="space-y-space-xs">
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm text-primary tracking-widest uppercase">System Philosophy // 01</span>
+<span class="h-px w-12 bg-primary/30"></span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Principled Analytics, Production Scalability</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+          A systemic view on statistical rigor, data telemetry, and production deployment designed to outlast raw hype.
+        </p>
+</div>
+<!-- Profile & Narrative Bento -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-stretch">
+<!-- Technical Narrative -->
+<div class="lg:col-span-7 bg-surface-container-low rounded-xl p-space-xl flex flex-col justify-between shadow-md">
+<div class="space-y-space-md">
+<div class="flex items-center gap-space-sm font-label-sm text-label-sm text-primary uppercase">
+<span class="material-symbols-outlined text-[18px]">terminal</span>
+<span>Engineering Manifesto</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface">From Stochastic Noise to Deterministic ROI</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Modern AI success is not dictated by parameter size alone; it requires sound data curation, meticulous feature extraction, and continuous MLOps feedback loops. My methodology emphasizes validating distributions before training, engineering features that simulate physical causality, and building test harnesses that prevent catastrophic model drift in production environments.
+            </p>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Whether architecting real-time streaming inference microservices or fine-tuning domain-specific foundational transformers, I maintain rigorous end-to-end telemetry so that model performance translates directly into quantified business uplift.
+            </p>
+</div>
+<!-- Architecture Metric Vector Bar -->
+<div class="mt-space-lg pt-space-md bg-surface-container rounded-lg p-space-md flex flex-col gap-space-sm">
+<div class="flex items-center justify-between font-label-sm text-label-sm text-on-surface-variant">
+<span>PIPELINE RESILIENCE SCORE</span>
+<span class="font-code-body text-primary">99.98% SLO</span>
+</div>
+<div class="w-full h-1.5 bg-surface-variant rounded-full overflow-hidden">
+<div class="h-full bg-gradient-to-r from-primary to-tertiary w-[99.98%]"></div>
+</div>
+</div>
+</div>
+<!-- Visual / Telemetry Panel with Inline SVG Visualization -->
+<div class="lg:col-span-5 bg-surface-container rounded-xl p-space-lg flex flex-col justify-between shadow-md relative overflow-hidden">
+<div class="space-y-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-tertiary uppercase tracking-wider">Live Model Convergence</span>
+<span class="font-code-body text-label-sm text-outline">EPOCH 120/120</span>
+</div>
+<div class="font-headline-sm text-headline-sm text-on-surface">Latent Loss Optimization</div>
+</div>
+<!-- Dynamic Convergence Inline SVG Chart -->
+<div class="w-full my-space-md py-space-sm">
+<svg class="w-full h-44 overflow-visible" fill="none" viewbox="0 0 360 140" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<lineargradient id="lossGradient" x1="0" x2="0" y1="0" y2="1">
+<stop offset="0%" stop-color="#38bdf8" stop-opacity="0.35"></stop>
+<stop offset="100%" stop-color="#38bdf8" stop-opacity="0.0"></stop>
+</lineargradient>
+<lineargradient id="valLossGradient" x1="0" x2="0" y1="0" y2="1">
+<stop offset="0%" stop-color="#56e5a9" stop-opacity="0.25"></stop>
+<stop offset="100%" stop-color="#56e5a9" stop-opacity="0.0"></stop>
+</lineargradient>
+</defs>
+<!-- Cartesian Grid -->
+<line stroke="#313540" stroke-dasharray="3 3" x1="0" x2="360" y1="20" y2="20"></line>
+<line stroke="#313540" stroke-dasharray="3 3" x1="0" x2="360" y1="60" y2="60"></line>
+<line stroke="#313540" stroke-dasharray="3 3" x1="0" x2="360" y1="100" y2="100"></line>
+<!-- Training Loss Area + Curve -->
+<path d="M0,120 Q60,110 120,45 T240,25 T360,18 L360,140 L0,140 Z" fill="url(#lossGradient)"></path>
+<path d="M0,120 Q60,110 120,45 T240,25 T360,18" stroke="#8ed5ff" stroke-linecap="round" stroke-width="2.5"></path>
+<!-- Validation Curve -->
+<path d="M0,130 Q70,115 130,58 T250,34 T360,26 L360,140 L0,140 Z" fill="url(#valLossGradient)"></path>
+<path d="M0,130 Q70,115 130,58 T250,34 T360,26" stroke="#56e5a9" stroke-dasharray="4 2" stroke-linecap="round" stroke-width="2"></path>
+<!-- Data Anchor Points -->
+<circle class="animate-pulse" cx="240" cy="25" fill="#8ed5ff" r="4"></circle>
+<circle cx="360" cy="18" fill="#38bdf8" r="4"></circle>
+<circle cx="360" cy="26" fill="#56e5a9" r="3"></circle>
+</svg>
+<div class="flex items-center justify-between font-code-body text-label-sm text-outline-variant mt-2 px-1">
+<span class="flex items-center gap-1.5"><span class="w-2.5 h-1 bg-primary rounded-full"></span> Train Loss (0.014)</span>
+<span class="flex items-center gap-1.5"><span class="w-2.5 h-1 bg-tertiary rounded-full"></span> Val Loss (0.018)</span>
+<span>LR: 1e-4</span>
+</div>
+</div>
+<!-- Quick Telemetry Registry -->
+<div class="grid grid-cols-2 gap-space-sm pt-space-sm bg-surface-container-high/60 rounded-lg p-space-sm">
+<div>
+<span class="font-label-sm text-label-sm text-outline">INFERENCE P99</span>
+<p class="font-code-body text-code-body text-primary font-medium">12.4ms</p>
+</div>
+<div>
+<span class="font-label-sm text-label-sm text-outline">DATA DRIFT DELTA</span>
+<p class="font-code-body text-code-body text-tertiary font-medium">0.002 KS-stat</p>
+</div>
+</div>
+</div>
+</div>
+<!-- 3 Feature Pillars Grid -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg">
+<!-- Card 1 -->
+<div class="bg-surface-container-low rounded-xl p-space-lg shadow-md flex flex-col gap-space-md hover:bg-surface-container transition-all duration-200">
+<div class="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[24px]">functions</span>
+</div>
+<div class="space-y-space-xs">
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Mathematical Rigor</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Grounded in Bayesian formulation, high-dimensional probability bounds, and empirical hypothesis testing to decouple true signal from ambient noise.
+            </p>
+</div>
+<div class="flex flex-wrap gap-1.5 mt-auto pt-space-xs font-label-sm text-label-sm text-primary">
+<span>#BayesianStats</span>
+<span>#MCMC</span>
+<span>#ConformalPrediction</span>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="bg-surface-container-low rounded-xl p-space-lg shadow-md flex flex-col gap-space-md hover:bg-surface-container transition-all duration-200">
+<div class="w-12 h-12 rounded-lg bg-tertiary/10 flex items-center justify-center text-tertiary">
+<span class="material-symbols-outlined text-[24px]">hub</span>
+</div>
+<div class="space-y-space-xs">
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Scalable ML Pipelines</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Distributed asynchronous orchestration, automated feature stores, continuous retraining hooks, and hardened Dockerized serving environments.
+            </p>
+</div>
+<div class="flex flex-wrap gap-1.5 mt-auto pt-space-xs font-label-sm text-label-sm text-tertiary">
+<span>#Ray</span>
+<span>#SparkStreaming</span>
+<span>#Kubeflow</span>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="bg-surface-container-low rounded-xl p-space-lg shadow-md flex flex-col gap-space-md hover:bg-surface-container transition-all duration-200">
+<div class="w-12 h-12 rounded-lg bg-secondary/15 flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[24px]">trending_up</span>
+</div>
+<div class="space-y-space-xs">
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Impact-Driven AI</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Translating theoretical loss minimization into direct profit and operational savings. Aligning precision/recall tradeoffs with true economic cost curves.
+            </p>
+</div>
+<div class="flex flex-wrap gap-1.5 mt-auto pt-space-xs font-label-sm text-label-sm text-secondary">
+<span>#CostMatrix</span>
+<span>#RevenueUplift</span>
+<span>#ProductStrategy</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ==================== TECHNICAL SKILLS & ARCHITECTURE STACK ==================== -->
+<section class="w-full py-space-xl lg:py-24 px-gutter" id="skills-stack">
+<div class="max-w-[1280px] mx-auto flex flex-col gap-space-xl">
+<!-- Section Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div class="space-y-space-xs">
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm text-primary tracking-widest uppercase">Competencies // 02</span>
+<span class="h-px w-12 bg-primary/30"></span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Technical Skills &amp; Architecture Stack</h2>
+</div>
+<div class="font-code-body text-code-body text-on-surface-variant flex items-center gap-space-sm bg-surface-container-low px-space-md py-2 rounded-lg">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+<span>50+ Tooling Tokens Monitored</span>
+</div>
+</div>
+<!-- Skills Matrix Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-md">
+<!-- Programming -->
+<div class="bg-surface-container-low rounded-xl p-space-lg shadow-sm flex flex-col justify-between hover:bg-surface-container transition-all">
+<div class="space-y-space-md">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-primary uppercase">Core Languages</span>
+<span class="material-symbols-outlined text-outline text-[20px]">code</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Programming</h3>
+<div class="flex flex-wrap gap-2 pt-space-xs">
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-on-surface font-code-body text-code-body">Python</span>
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-on-surface font-code-body text-code-body">R</span>
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-on-surface font-code-body text-code-body">SQL (ANSI/pgSQL)</span>
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-on-surface font-code-body text-code-body">Julia</span>
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-on-surface font-code-body text-code-body">C++</span>
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-on-surface font-code-body text-code-body">Bash/Zsh</span>
+</div>
+</div>
+<div class="mt-space-lg pt-space-sm flex items-center justify-between text-outline font-label-sm text-label-sm">
+<span>PRIMARY WORKHORSE</span>
+<span class="text-on-surface font-code-body">Python 3.11+</span>
+</div>
+</div>
+<!-- ML & Deep Learning -->
+<div class="bg-surface-container-low rounded-xl p-space-lg shadow-sm flex flex-col justify-between hover:bg-surface-container transition-all">
+<div class="space-y-space-md">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-tertiary uppercase">Algorithmic Suite</span>
+<span class="material-symbols-outlined text-outline text-[20px]">psychology</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">ML &amp; Deep Learning</h3>
+<div class="flex flex-wrap gap-2 pt-space-xs">
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-on-surface font-code-body text-code-body">PyTorch</span>
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-on-surface font-code-body text-code-body">TensorFlow</span>
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-on-surface font-code-body text-code-body">Scikit-Learn</span>
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-on-surface font-code-body text-code-body">XGBoost / LightGBM</span>
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-on-surface font-code-body text-code-body">Hugging Face Transformers</span>
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-on-surface font-code-body text-code-body">CatBoost</span>
+</div>
+</div>
+<div class="mt-space-lg pt-space-sm flex items-center justify-between text-outline font-label-sm text-label-sm">
+<span>DEEP LEARNING STANDARD</span>
+<span class="text-tertiary font-code-body">PyTorch / Lightning</span>
+</div>
+</div>
+<!-- Big Data & Cloud -->
+<div class="bg-surface-container-low rounded-xl p-space-lg shadow-sm flex flex-col justify-between hover:bg-surface-container transition-all">
+<div class="space-y-space-md">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-secondary uppercase">Distributed Scale</span>
+<span class="material-symbols-outlined text-outline text-[20px]">cloud</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Big Data &amp; Cloud</h3>
+<div class="flex flex-wrap gap-2 pt-space-xs">
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-on-surface font-code-body text-code-body">Apache Spark (PySpark)</span>
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-on-surface font-code-body text-code-body">Apache Kafka</span>
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-on-surface font-code-body text-code-body">AWS SageMaker</span>
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-on-surface font-code-body text-code-body">GCP Vertex AI</span>
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-on-surface font-code-body text-code-body">Google BigQuery</span>
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-on-surface font-code-body text-code-body">Snowflake</span>
+</div>
+</div>
+<div class="mt-space-lg pt-space-sm flex items-center justify-between text-outline font-label-sm text-label-sm">
+<span>HIGH-THROUGHPUT ENGINE</span>
+<span class="text-secondary font-code-body">Kafka + Spark</span>
+</div>
+</div>
+<!-- MLOps & Production -->
+<div class="bg-surface-container-low rounded-xl p-space-lg shadow-sm flex flex-col justify-between hover:bg-surface-container transition-all">
+<div class="space-y-space-md">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-primary uppercase">Deployment &amp; Infra</span>
+<span class="material-symbols-outlined text-outline text-[20px]">settings_suggest</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">MLOps &amp; Serving</h3>
+<div class="flex flex-wrap gap-2 pt-space-xs">
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-on-surface font-code-body text-code-body">Docker</span>
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-on-surface font-code-body text-code-body">Kubernetes (k8s)</span>
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-on-surface font-code-body text-code-body">MLflow</span>
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-on-surface font-code-body text-code-body">FastAPI</span>
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-on-surface font-code-body text-code-body">Data Version Control (DVC)</span>
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-on-surface font-code-body text-code-body">Apache Airflow</span>
+</div>
+</div>
+<div class="mt-space-lg pt-space-sm flex items-center justify-between text-outline font-label-sm text-label-sm">
+<span>REGISTRY &amp; RUNTIME</span>
+<span class="text-primary font-code-body">FastAPI + K8s</span>
+</div>
+</div>
+<!-- Data Visualization & BI -->
+<div class="bg-surface-container-low rounded-xl p-space-lg shadow-sm flex flex-col justify-between hover:bg-surface-container transition-all">
+<div class="space-y-space-md">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-tertiary uppercase">Insight Delivery</span>
+<span class="material-symbols-outlined text-outline text-[20px]">monitoring</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Visualization &amp; BI</h3>
+<div class="flex flex-wrap gap-2 pt-space-xs">
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-on-surface font-code-body text-code-body">Plotly / Dash</span>
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-on-surface font-code-body text-code-body">Streamlit</span>
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-on-surface font-code-body text-code-body">Tableau</span>
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-on-surface font-code-body text-code-body">Microsoft PowerBI</span>
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-on-surface font-code-body text-code-body">Matplotlib / Seaborn</span>
+</div>
+</div>
+<div class="mt-space-lg pt-space-sm flex items-center justify-between text-outline font-label-sm text-label-sm">
+<span>PROTOTYPE FRAMEWORK</span>
+<span class="text-tertiary font-code-body">Streamlit / Dash</span>
+</div>
+</div>
+<!-- Generative AI & Vector Stores -->
+<div class="bg-surface-container-low rounded-xl p-space-lg shadow-sm flex flex-col justify-between hover:bg-surface-container transition-all">
+<div class="space-y-space-md">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-secondary uppercase">Frontier Paradigms</span>
+<span class="material-symbols-outlined text-outline text-[20px]">auto_awesome</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">GenAI &amp; Vector DBs</h3>
+<div class="flex flex-wrap gap-2 pt-space-xs">
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-on-surface font-code-body text-code-body">LangChain / LlamaIndex</span>
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-on-surface font-code-body text-code-body">Pinecone</span>
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-on-surface font-code-body text-code-body">ChromaDB / FAISS</span>
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-on-surface font-code-body text-code-body">LoRA / QLoRA Tuning</span>
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-on-surface font-code-body text-code-body">vLLM Inference</span>
+</div>
+</div>
+<div class="mt-space-lg pt-space-sm flex items-center justify-between text-outline font-label-sm text-label-sm">
+<span>INDEXING ENGINE</span>
+<span class="text-secondary font-code-body">FAISS + Pinecone</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ==================== FEATURED PROJECTS & ML MODELS ==================== -->
+<section class="w-full py-space-xl lg:py-24 px-gutter bg-surface-container-lowest/60" id="projects-ml-models">
+<div class="max-w-[1280px] mx-auto flex flex-col gap-space-xl">
+<!-- Section Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div class="space-y-space-xs">
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm text-primary tracking-widest uppercase">Artifacts // 03</span>
+<span class="h-px w-12 bg-primary/30"></span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Featured Projects &amp; ML Models</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+          Production systems, domain pipelines, and validated deployments delivering quantifiable performance improvements.
+        </p>
+</div>
+<!-- Projects Grid (2x2 Asymmetric Bento) -->
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-space-lg">
+<!-- Project 1: Autonomous Churn Prediction Engine -->
+<div class="bg-surface-container-low rounded-xl overflow-hidden shadow-md flex flex-col justify-between group hover:shadow-xl transition-all">
+<div class="relative w-full h-56 bg-surface-container overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-80" data-alt="Futuristic dark high-tech fintech dashboard illustrating real-time sequence prediction analytics, retention probability vectors, and dynamic customer event graphs in glowing cyan and slate tones, cinematic lighting, sleek UI design." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBgHT9fEZBL-SCaTLJEb5ghzYHm0lebjydVrVcgs3hn7yqnilaw9BCTUhA7LAHTV5s-0UBbo68ckxiBG-AHxTRT12RmbXHjMt5bX0UnYdtIAIUTEEhWmXdZouHSO_XdazD4mh09iCudO2nkWHFndRa_vQ-xd-gwniq9DcdVNwiGWIcUzECS4A8fCjQiF9WrJkG0e1zlpc9UweSzm9XQJCSt500Pu4w7M0fp3mhjpkxioQbemUMjO7Q"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low via-surface-container-low/40 to-transparent"></div>
+<div class="absolute top-4 left-4 bg-surface-container-high/90 backdrop-blur-md px-space-sm py-1 rounded text-primary font-code-body text-label-sm uppercase tracking-wider">
+              FINTECH STREAMING ML
+            </div>
+<div class="absolute bottom-4 right-4 bg-tertiary/15 backdrop-blur-md px-space-sm py-1 rounded text-tertiary font-code-body text-label-sm font-semibold">
+              -28% CHURN REDUCTION
+            </div>
+</div>
+<div class="p-space-lg space-y-space-md flex-1 flex flex-col justify-between">
+<div class="space-y-space-xs">
+<h3 class="font-headline-md text-headline-md text-on-surface group-hover:text-primary transition-colors">
+                Autonomous Churn Prediction Engine
+              </h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                Engineered an end-to-end real-time gradient boosting inference engine analyzing user event streams and sequential transaction patterns. Built on custom Markov-augmented decision sequences, enabling proactive intervention campaigns and saving $1.4M annually.
+              </p>
+</div>
+<div class="pt-space-md space-y-space-sm">
+<div class="flex flex-wrap gap-1.5">
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-primary font-code-body text-label-sm">Python</span>
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-primary font-code-body text-label-sm">XGBoost</span>
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-primary font-code-body text-label-sm">FastAPI</span>
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-primary font-code-body text-label-sm">Docker</span>
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-primary font-code-body text-label-sm">AWS SageMaker</span>
+</div>
+<div class="flex items-center justify-between text-outline font-label-sm text-label-sm pt-2">
+<span>METRIC: 0.941 AUC-ROC</span>
+<span class="text-primary font-code-body">LATENCY: 18ms</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Project 2: Multimodal Medical Diagnostics Vision Model -->
+<div class="bg-surface-container-low rounded-xl overflow-hidden shadow-md flex flex-col justify-between group hover:shadow-xl transition-all">
+<div class="relative w-full h-56 bg-surface-container overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-80" data-alt="Digital radiography clinical imaging workstation with highlighted AI attention heatmaps and segmented lung volume scans rendered in glowing emerald and deep slate glass interface, high resolution medical diagnostic visualization." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAvIFlIXj06B4kLkirXx_Fyn-0RjrcNuoZCGIhXbbJ3ml23YdL9pspF31Y5pUSmbdfxhekhb8HfwGcaqaMYk2OeEYBF4N9Zxn91DvVZYldKX-11emYi-0tRB-a7fLxVPUIbNljI-Y3jYfiVV7QHhdfxwpHAXqLLtWRGkFg9wzZjoMTab81s2sqWhegZLb7ZQuYyKJtqotF2TsfeEY_561YAJmclQ_eY5UINj13tdumtHW0xYOl2nEA"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low via-surface-container-low/40 to-transparent"></div>
+<div class="absolute top-4 left-4 bg-surface-container-high/90 backdrop-blur-md px-space-sm py-1 rounded text-tertiary font-code-body text-label-sm uppercase tracking-wider">
+              HEALTHCARE COMPUTER VISION
+            </div>
+<div class="absolute bottom-4 right-4 bg-primary/15 backdrop-blur-md px-space-sm py-1 rounded ext-primary font-code-body text-label-sm font-semibold">
+              98.4% PRECISION
+            </div>
+</div>
+<div class="p-space-lg space-y-space-md flex-1 flex flex-col justify-between">
+<div class="space-y-space-xs">
+<h3 class="font-headline-md text-headline-md text-on-surface group-hover:text-tertiary transition-colors">
+                Multimodal Medical Diagnostics Vision Model
+              </h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                Dual-backbone Convolutional &amp; Vision Transformer (ViT) ensemble trained for early-stage oncological anomaly detection across high-resolution chest tomography. Incorporates Grad-CAM visual explainability to provide radiologists with confidence-calibrated reasoning.
+              </p>
+</div>
+<div class="pt-space-md space-y-space-sm">
+<div class="flex flex-wrap gap-1.5">
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-tertiary font-code-body text-label-sm">PyTorch</span>
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-tertiary font-code-body text-label-sm">Vision Transformers</span>
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-tertiary font-code-body text-label-sm">Grad-CAM</span>
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-tertiary font-code-body text-label-sm">Weights &amp; Biases</span>
+</div>
+<div class="flex items-center justify-between text-outline font-label-sm text-label-sm pt-2">
+<span>DATASET: 450K DICOM IMAGES</span>
+<span class="text-tertiary font-code-body">FP-RATE: &lt; 0.012</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Project 3: Enterprise NLP Document Intelligence Agent -->
+<div class="bg-surface-container-low rounded-xl overflow-hidden shadow-md flex flex-col justify-between group hover:shadow-xl transition-all">
+<div class="relative w-full h-56 bg-surface-container overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-80" data-alt="Complex 3D semantic vector embedding space visualization with interconnected legal documents, query nodes, and neural connections glowing in violet and cyan on a dark slate canvas, abstract technical concept." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA5GHWaxVw3YwjzL45NTTukRNKH5_PPbHdBCuwgeFtD3qgl60IiMW6lsf6dwZu6vHKzQm13mOVwk3PeRkKSX6SQr4sav04q--p1i-GcV6rpPHDa40qzdl-FHihdkfhqjjSJ1t6vikPPNFOjofAvs0_m4QQELdXGl6WxTODV0FSzAlpi7iA9CMuZnlymOSgG4Ec-NhUiKqu7yGa415QJAwLsmiW9fvidjtPjI3IUtHnsPGOsHXfOYVc"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low via-surface-container-low/40 to-transparent"></div>
+<div class="absolute top-4 left-4 bg-surface-container-high/90 backdrop-blur-md px-space-sm py-1 rounded text-secondary font-code-body text-label-sm uppercase tracking-wider">
+              GENAI &amp; RAG ARCHITECTURE
+            </div>
+<div class="absolute bottom-4 right-4 bg-secondary/15 backdrop-blur-md px-space-sm py-1 rounded text-secondary font-code-body text-label-sm font-semibold">
+              100K+ CORPUS PARSED
+            </div>
+</div>
+<div class="p-space-lg space-y-space-md flex-1 flex flex-col justify-between">
+<div class="space-y-space-xs">
+<h3 class="font-headline-md text-headline-md text-on-surface group-hover:text-secondary transition-colors">
+                Enterprise NLP Document Intelligence Agent
+              </h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                Engineered a specialized Retrieval-Augmented Generation (RAG) agent combining semantic chunking, dense vector retrieval via Pinecone, and cross-encoder re-ranking. Parsed multi-tier compliance covenants and complex financial clauses with hallucination mitigation safeguards.
+              </p>
+</div>
+<div class="pt-space-md space-y-space-sm">
+<div class="flex flex-wrap gap-1.5">
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-secondary font-code-body text-label-sm">LangChain</span>
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-secondary font-code-body text-label-sm">Pinecone DB</span>
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-secondary font-code-body text-label-sm">Hugging Face</span>
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-secondary font-code-body text-label-sm">Streamlit</span>
+</div>
+<div class="flex items-center justify-between text-outline font-label-sm text-label-sm pt-2">
+<span>CONTEXT WINDOW: 32K TOKENS</span>
+<span class="text-secondary font-code-body">RECALL@5: 96.8%</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Project 4: High-Frequency Algorithmic Market Forecasting -->
+<div class="bg-surface-container-low rounded-xl overflow-hidden shadow-md flex flex-col justify-between group hover:shadow-xl transition-all">
+<div class="relative w-full h-56 bg-surface-container overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-80" data-alt="High frequency quantitative algorithmic trading visual interface displaying continuous order book depth, rolling volatility bands, and microsecond candlestick models rendered in electric cyan and emerald vectors on an obsidian background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBSPQue1HhPQZXllugN5frzAVoRx8vXjmEAeMfjTmKIo0h0-DCUYrJDre7T0omOPCz3fCJfqC5MJnHtqXhrdmGU9m7jSird5mERGZjhRD21rf7kg_sx5hPBq5KB_Qd3DX0VYy3m_I7izx-XFnd8LZc4wzRnUUKNI6IDkEOkuo-8DOPUZf5wxnzHgM-H7dZt7EBG0P153GkcJKF2EaggGwx4LNjn6cg-_I6YMpcJ_HhyiiyIRUjaUuo"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low via-surface-container-low/40 to-transparent"></div>
+<div class="absolute top-4 left-4 bg-surface-container-high/90 backdrop-blur-md px-space-sm py-1 rounded text-primary font-code-body text-label-sm uppercase tracking-wider">
+              QUANTITATIVE TIME-SERIES
+            </div>
+<div class="absolute bottom-4 right-4 bg-tertiary/15 backdrop-blur-md px-space-sm py-1 rounded text-tertiary font-code-body text-label-sm font-semibold">
+              SUB-SECOND INFERENCE
+            </div>
+</div>
+<div class="p-space-lg space-y-space-md flex-1 flex flex-col justify-between">
+<div class="space-y-space-xs">
+<h3 class="font-headline-md text-headline-md text-on-surface group-hover:text-primary transition-colors">
+                High-Frequency Algorithmic Market Forecasting
+              </h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                Constructed a temporal Transformer-LSTM hybrid pipeline integrated directly with Apache Kafka and distributed Spark streaming nodes. Ingests tick-level order book dynamics, computing real-time volatility surface representations for automated liquidity provisioning.
+              </p>
+</div>
+<div class="pt-space-md space-y-space-sm">
+<div class="flex flex-wrap gap-1.5">
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-primary font-code-body text-label-sm">TensorFlow</span>
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-primary font-code-body text-label-sm">Apache Spark</span>
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-primary font-code-body text-label-sm">Kafka</span>
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-primary font-code-body text-label-sm">Feast Feature Store</span>
+</div>
+<div class="flex items-center justify-between text-outline font-label-sm text-label-sm pt-2">
+<span>SHARPE RATIO: 2.84</span>
+<span class="text-tertiary font-code-body">PROCESSING: 120k ticks/sec</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ==================== RESEARCH, PUBLICATIONS & BENCHMARKS ==================== -->
+<section class="w-full py-space-xl lg:py-24 px-gutter" id="research-case-studies">
+<div class="max-w-[1280px] mx-auto flex flex-col gap-space-xl">
+<!-- Section Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div class="space-y-space-xs">
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm text-primary tracking-widest uppercase">Scholarship // 04</span>
+<span class="h-px w-12 bg-primary/30"></span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Research, Publications &amp; Case Studies</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+          Academic preprints, benchmark evaluations, and algorithmic investigations pushing computational efficiency.
+        </p>
+</div>
+<!-- Publication Cards & Competitive Profiles -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg">
+<!-- Paper 1 -->
+<div class="lg:col-span-6 bg-surface-container-low rounded-xl p-space-xl flex flex-col justify-between shadow-md group hover:bg-surface-container transition-all">
+<div class="space-y-space-md">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-primary uppercase">arXiv / Peer Review Draft</span>
+<span class="font-code-body text-label-sm text-outline">CODE: cs.LG/2309.8412</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface group-hover:text-primary transition-colors">
+              Optimizing Hyperparameter Search in Constrained Compute Environments
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Investigating Gaussian Process surrogates and asynchronous successive halving (ASHA) under strict GPU-memory boundaries. Demonstrates an empirical 4.2x speedup in model convergence without loss in terminal validation F1-score compared to standard Bayesian sweeps.
+            </p>
+</div>
+<div class="pt-space-lg flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-tertiary">#BayesianOptimization #ASHA</span>
+<a class="inline-flex items-center gap-1 font-label-md text-label-md text-primary hover:underline" href="mailto:ashishbaiga@gmail.com?subject=Paper%20Request%20-%20Hyperparameter%20Optimization">
+<span>Read Abstract</span>
+<span class="material-symbols-outlined text-[14px]">arrow_outward</span>
+</a>
+</div>
+</div>
+<!-- Paper 2 -->
+<div class="lg:col-span-6 bg-surface-container-low rounded-xl p-space-xl flex flex-col justify-between shadow-md group hover:bg-surface-container transition-all">
+<div class="space-y-space-md">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-secondary uppercase">Whitepaper / Technical Report</span>
+<span class="font-code-body text-label-sm text-outline">REPORT: XAI-PROD-24</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface group-hover:text-secondary transition-colors">
+              Explainable AI in Production: Moving Beyond SHAP for Black-Box Neural Networks
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              A comprehensive critique of standard Shapley approximation overheads in real-time scoring microservices. Introduces lightweight surrogate distillation layers that output calibrated feature attributions in under 2ms, satisfying rigorous banking audit requirements.
+            </p>
+</div>
+<div class="pt-space-lg flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-secondary">#XAI #SurrogateModels #Auditing</span>
+<a class="inline-flex items-center gap-1 font-label-md text-label-md text-primary hover:underline" href="mailto:ashishbaiga@gmail.com?subject=Paper%20Request%20-%20Explainable%20AI">
+<span>Download Whitepaper</span>
+<span class="material-symbols-outlined text-[14px]">arrow_outward</span>
+</a>
+</div>
+</div>
+<!-- Competitive Data Science & Open Source Footprint (Full Span) -->
+<div class="lg:col-span-12 bg-surface-container rounded-xl p-space-xl shadow-md grid grid-cols-1 md:grid-cols-3 gap-space-lg">
+<!-- Kaggle Master -->
+<div class="flex items-start gap-space-md">
+<div class="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-primary text-[28px]">military_tech</span>
+</div>
+<div class="space-y-1">
+<div class="font-headline-sm text-headline-sm text-on-surface">Kaggle Competition Master</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Top 0.5% ranking globally with 2 Gold, 4 Silver medals in tabular and NLP multimodal competitions.</p>
+<span class="inline-block pt-1 font-code-body text-label-sm text-primary">RANK: TOP 150 GLOBAL</span>
+</div>
+</div>
+<!-- Open-Source Repositories -->
+<div class="flex items-start gap-space-md">
+<div class="w-12 h-12 rounded-lg bg-tertiary/10 flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-tertiary text-[28px]">terminal</span>
+</div>
+<div class="space-y-1">
+<div class="font-headline-sm text-headline-sm text-on-surface">Open-Source Maintainer</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Authored public Python utilities for distributed model quantization and automated tabular drift alerts.</p>
+<span class="inline-block pt-1 font-code-body text-label-sm text-tertiary">1.2K+ GITHUB STARS</span>
+</div>
+</div>
+<!-- Technical Mentorship -->
+<div class="flex items-start gap-space-md">
+<div class="w-12 h-12 rounded-lg bg-secondary/15 flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-secondary text-[28px]">school</span>
+</div>
+<div class="space-y-1">
+<div class="font-headline-sm text-headline-sm text-on-surface">Industry Advisor</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Guest reviewer for applied machine learning workshops and technical advisor to early-stage data startups.</p>
+<span class="inline-block pt-1 font-code-body text-label-sm text-secondary">30+ TECH REVIEWS</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ==================== CONTACT & COLLABORATION ==================== -->
+<section class="w-full py-space-xl lg:py-24 px-gutter bg-surface-container-lowest/80" id="contact">
+<div class="max-w-[1280px] mx-auto flex flex-col gap-space-xl">
+<!-- Section Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div class="space-y-space-xs">
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm text-primary tracking-widest uppercase">Connection // 05</span>
+<span class="h-px w-12 bg-primary/30"></span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Initiate Collaboration</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+          Available globally for strategic consulting engagements, staff ML engineering leadership, or bespoke AI research.
+        </p>
+</div>
+<!-- Main Interaction Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl">
+<!-- Direct Contact Info & Clipboard Widget -->
+<div class="lg:col-span-5 flex flex-col justify-between space-y-space-lg">
+<div class="space-y-space-md">
+<div class="bg-surface-container-low rounded-xl p-space-lg shadow-md space-y-space-md">
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider">Direct Transmission</span>
+<div class="space-y-space-xs">
+<div class="font-body-sm text-body-sm text-on-surface-variant">Primary Electronic Mail</div>
+<div class="flex items-center justify-between bg-surface-container-highest px-space-md py-3 rounded-lg">
+<a class="font-code-body text-code-body text-primary hover:text-primary-fixed truncate" href="mailto:ashishbaiga@gmail.com">
+                    ashishbaiga@gmail.com
+                  </a>
+<button class="p-1 rounded hover:bg-surface-variant text-on-surface-variant hover:text-on-surface transition-colors" onclick="navigator.clipboard.writeText('ashishbaiga@gmail.com'); alert('Copied ashishbaiga@gmail.com to clipboard');" title="Copy Email">
+<span class="material-symbols-outlined text-[18px]">content_copy</span>
+</button>
+</div>
+</div>
+<div class="space-y-space-xs">
+<div class="font-body-sm text-body-sm text-on-surface-variant">Alternative / Domain Mail</div>
+<div class="flex items-center justify-between bg-surface-container-highest px-space-md py-3 rounded-lg">
+<a class="font-code-body text-code-body text-on-surface hover:text-primary truncate" href="mailto:contact@aadibbaiga.com">
+                    contact@aadibbaiga.com
+                  </a>
+<button class="p-1 rounded hover:bg-surface-variant text-on-surface-variant hover:text-on-surface transition-colors" onclick="navigator.clipboard.writeText('contact@aadibbaiga.com'); alert('Copied contact@aadibbaiga.com to clipboard');" title="Copy Email">
+<span class="material-symbols-outlined text-[18px]">content_copy</span>
+</button>
+</div>
+</div>
+<!-- Location & Work Mode Status -->
+<div class="pt-space-sm space-y-2">
+<div class="flex items-center gap-space-sm font-body-sm text-body-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-primary text-[18px]">public</span>
+<span>Available Globally • Remote / Hybrid Friendly</span>
+</div>
+<div class="flex items-center gap-space-sm font-body-sm text-body-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-tertiary text-[18px]">schedule</span>
+<span>Response Time: Typically &lt; 12 Hours</span>
+</div>
+</div>
+</div>
+<!-- Social Ecosystem Grid -->
+<div class="space-y-space-xs">
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider">Computational Footprint</span>
+<div class="grid grid-cols-2 sm:grid-cols-3 gap-space-sm pt-space-xs">
+<a class="p-space-sm rounded-lg bg-surface-container-low hover:bg-surface-container text-on-surface-variant hover:text-primary font-code-body text-code-body flex items-center gap-2 transition-all" href="https://linkedin.com" rel="noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px]">share</span>
+<span>LinkedIn</span>
+</a>
+<a class="p-space-sm rounded-lg bg-surface-container-low hover:bg-surface-container text-on-surface-variant hover:text-primary font-code-body text-code-body flex items-center gap-2 transition-all" href="https://github.com" rel="noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px]">terminal</span>
+<span>GitHub</span>
+</a>
+<a class="p-space-sm rounded-lg bg-surface-container-low hover:bg-surface-container text-on-surface-variant hover:text-primary font-code-body text-code-body flex items-center gap-2 transition-all" href="https://kaggle.com" rel="noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px]">leaderboard</span>
+<span>Kaggle</span>
+</a>
+<a class="p-space-sm rounded-lg bg-surface-container-low hover:bg-surface-container text-on-surface-variant hover:text-primary font-code-body text-code-body flex items-center gap-2 transition-all" href="https://huggingface.co" rel="noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px]">smart_toy</span>
+<span>HuggingFace</span>
+</a>
+<a class="p-space-sm rounded-lg bg-surface-container-low hover:bg-surface-container text-on-surface-variant hover:text-primary font-code-body text-code-body flex items-center gap-2 transition-all" href="https://x.com" rel="noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px]">tag</span>
+<span>X (Twitter)</span>
+</a>
+<a class="p-space-sm rounded-lg bg-surface-container-low hover:bg-surface-container text-on-surface-variant hover:text-primary font-code-body text-code-body flex items-center gap-2 transition-all" href="https://scholar.google.com" rel="noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px]">school</span>
+<span>Scholar</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+<!-- Contact Form Card -->
+<div class="lg:col-span-7 bg-surface-container-low rounded-xl p-space-xl shadow-md">
+<form class="space-y-space-md" onsubmit="event.preventDefault(); alert('Transmission dispatched. Aadib Baiga will respond promptly.');">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<!-- Name -->
+<div class="space-y-1">
+<label class="font-label-sm text-label-sm text-outline uppercase tracking-wider">Your Name *</label>
+<input class="w-full bg-surface-container-highest px-space-md py-3 rounded font-body-md text-on-surface placeholder:text-outline-variant focus:outline-none focus:bg-surface-bright transition-all" placeholder="e.g. Dr. Elena Vance" required="" type="text"/>
+</div>
+<!-- Email -->
+<div class="space-y-1">
+<label class="font-label-sm text-label-sm text-outline uppercase tracking-wider">Email Address *</label>
+<input class="w-full bg-surface-container-highest px-space-md py-3 rounded font-body-md text-on-surface placeholder:text-outline-variant focus:outline-none focus:bg-surface-bright transition-all" placeholder="name@organization.com" required="" type="email"/>
+</div>
+</div>
+<!-- Project Type / Engagement Model -->
+<div class="space-y-1">
+<label class="font-label-sm text-label-sm text-outline uppercase tracking-wider">Engagement Intent</label>
+<select class="w-full bg-surface-container-highest px-space-md py-3 rounded font-body-md text-on-surface focus:outline-none focus:bg-surface-bright transition-all">
+<option value="consulting">ML &amp; AI Strategic Consulting</option>
+<option value="fulltime">Full-time Lead / Staff Data Scientist Role</option>
+<option value="research">Collaborative Applied Research / Advisory</option>
+<option value="speaking">Technical Keynote / Workshop Speaking</option>
+<option value="other">General Engineering Inquiry</option>
+</select>
+</div>
+<!-- Message -->
+<div class="space-y-1">
+<label class="font-label-sm text-label-sm text-outline uppercase tracking-wider">Project Scope &amp; Problem Statement *</label>
+<textarea class="w-full bg-surface-container-highest p-space-md rounded font-body-md text-on-surface placeholder:text-outline-variant focus:outline-none focus:bg-surface-bright transition-all" placeholder="Describe your dataset, latency constraints, algorithmic challenges, or role specifications..." required="" rows="4"></textarea>
+</div>
+<!-- Submit Button -->
+<button class="w-full py-3.5 px-space-lg rounded bg-primary-container text-on-primary-container font-headline-sm text-body-sm font-semibold shadow-[0_0_20px_rgba(56,189,248,0.25)] hover:bg-primary transition-all duration-200 flex items-center justify-center gap-space-sm cursor-pointer" type="submit">
+<span>Transmit Message</span>
+<span class="material-symbols-outlined text-[18px]">send</span>
+</button>
+<div class="text-center font-code-body text-label-sm text-outline pt-1">
+              GPG KEY ENCRYPTED TRANSMISSION READY • ZERO TRACKERS
+            </div>
+</form>
+</div>
+</div>
+</div>
+</section>
+</div></main><footer class="w-full bg-surface-container-lowest py-space-xl"><div class="max-w-[1280px] mx-auto px-gutter flex flex-col gap-space-xl"><div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-space-lg"><div class="space-y-space-xs"><div class="flex items-center gap-space-sm"><img alt="Aadib Baiga Logo" class="h-6 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1UKW2GBlDlTg5vhZ6yyLRB7ALVzgEapM0wF3ebTpUDwM8F_vCi41JxwSi8MUeu_ktcegZgrjb4-_fcmAJnqRzW_nI2wJMZ0pRyL0rZUzswUvtG5MoiAGKbLQosaChGdBm_8D9pm2WNN5VD69dBNbxz4QxZuFLQuKmzKJcZQbQDrRBDhNaOsv3qRtoAKFPxIUYEM5tKBVnKGtqf2isEyHTvOawrzz03e884zN2usXCt8CFgd8Yc52rFYgA"/><span class="font-headline-sm text-headline-sm text-on-surface">Aadib Baiga</span></div><p class="font-body-sm text-body-sm text-on-surface-variant max-w-md">Engineering robust machine learning architectures, statistical inference systems, and high-throughput analytical pipelines.</p></div><div class="flex flex-col sm:flex-row items-start sm:items-center gap-space-md"><div class="flex flex-col"><span class="font-label-sm text-label-sm text-outline uppercase tracking-widest">Primary Inquiries</span><a class="font-code-body text-code-body text-primary hover:text-primary-fixed transition-colors" href="mailto:ashishbaiga@gmail.com">ashishbaiga@gmail.com</a></div><div class="hidden sm:block w-px h-8 bg-surface-variant"></div><div class="flex flex-col"><span class="font-label-sm text-label-sm text-outline uppercase tracking-widest">Institutional</span><a class="font-code-body text-code-body text-on-surface-variant hover:text-on-surface transition-colors" href="mailto:ashish.baiga@email.com">ashish.baiga@email.com</a></div></div></div><div class="flex flex-wrap items-center justify-between gap-space-md pt-space-lg"><nav class="flex flex-wrap items-center gap-space-md" data-active-classes="text-primary font-bold"><a aria-current="page" class="transition-colors uppercase tracking-wider text-primary font-bold" data-path="about" href="#about">About</a><a class="font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface transition-colors uppercase tracking-wider" data-path="skills-stack" href="#skills-stack">Skills &amp; Stack</a><a class="font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface transition-colors uppercase tracking-wider" data-path="projects-ml-models" href="#projects-ml-models">Projects &amp; ML Models</a><a class="font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface transition-colors uppercase tracking-wider" data-path="research-case-studies" href="#research-case-studies">Research &amp; Case Studies</a><a class="font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface transition-colors uppercase tracking-wider" data-path="contact" href="#contact">Contact</a></nav><div class="flex items-center gap-space-md"><a class="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-colors uppercase tracking-widest" href="https://github.com" rel="noreferrer" target="_blank">GitHub</a><a class="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-colors uppercase tracking-widest" href="https://linkedin.com" rel="noreferrer" target="_blank">LinkedIn</a><a class="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-colors uppercase tracking-widest" href="https://kaggle.com" rel="noreferrer" target="_blank">Kaggle</a><a class="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-colors uppercase tracking-widest" href="https://huggingface.co" rel="noreferrer" target="_blank">HuggingFace</a><a class="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-colors uppercase tracking-widest" href="https://scholar.google.com" rel="noreferrer" target="_blank">Google Scholar</a></div></div><div class="flex flex-col sm:flex-row items-center justify-between gap-space-sm pt-space-md text-on-surface-variant"><span class="font-code-body text-label-sm tracking-wider text-outline">© 2024 Aadib Baiga. All computational rights reserved.</span><span class="font-code-body text-label-sm tracking-wider text-outline">LATENCY: OPTIMAL • SYSTEM RUNNING IN PRODUCTION</span></div></div></footer></body></html>
